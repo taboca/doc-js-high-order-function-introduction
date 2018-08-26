@@ -8,7 +8,6 @@
 var multiply = function(x,y) {
    return x*y;
 }
-
 ```
 
 Take one function and put it inside another. This other, that receives a function, is referred as High Order Functions. With that, you can enable composition, to put small functions inside other functions.
@@ -22,11 +21,9 @@ var cities = [
    { name: 'Sao Carlos', state: 'Sao Paulo', country: 'Brazil'},
 ]
 
-
 var brazilianCities = cities.filter(function(city) {
    return city.country === 'Brazil;
 });
-
 ```
 
 Therefore, as "filter" in the Array accepts a function, then filter is then a referred as a High Order Function.
